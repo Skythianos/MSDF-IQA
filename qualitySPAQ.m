@@ -3,8 +3,8 @@ close all
 
 load SPAQ.mat    % This mat file contains information about the database (KonIQ-10k)
 
-Directory = 'C:\Users\Public\QualityAssessment\SPAQ\TestImage';  % path to KonIQ-10k database 
-numberOfImages = size(MOS,1);   % number of images in KonIQ-10k database
+Directory = 'C:\Users\Public\QualityAssessment\SPAQ\TestImage';  % path to SPAQ database 
+numberOfImages = size(MOS,1);   % number of images in SPAQ database
 numberOfTrainImages = round( 0.8*numberOfImages );   % appx. 80% of images is used for training
 numberOfSplits = 100;
 
