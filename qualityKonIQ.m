@@ -4,7 +4,6 @@ close all
 load KonIQ10k.mat    % This mat file contains information about the database (KonIQ-10k)
 
 Directory = 'C:\Users\Public\QualityAssessment\KonIQ-10k\1024x768';  % path to KonIQ-10k database 
-Waterloo  = 'C:\Users\Public\QualityAssessment\exploration_database_and_code'; % path to Waterloo database
 numberOfImages = size(mos,1);   % number of images in KonIQ-10k database
 numberOfTrainImages = round( 0.8*numberOfImages );   % appx. 80% of images is used for training
 numberOfSplits = 100;
