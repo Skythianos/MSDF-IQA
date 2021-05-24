@@ -4,7 +4,7 @@ close all
 load CLIVE.mat
 
 Directory = 'C:\Users\Public\QualityAssessment\ChallengeDB_release\Images';  % path to CLIVE database 
-numberOfImages = size(AllMOS_release,2);   % number of images in KonIQ-10k database
+numberOfImages = size(AllMOS_release,2);   % number of images in CLIVE database
 numberOfTrainImages = round( 0.8*numberOfImages );   % appx. 80% of images is used for training
 numberOfSplits = 100;
 
